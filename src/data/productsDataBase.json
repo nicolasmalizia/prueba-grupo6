@@ -1,0 +1,65 @@
+[
+ {
+  "id": 34,
+  "name": "pantalonn  MMM",
+  "price": 45,
+  "discount": 0,
+  "category": "MUJER",
+  "description": "EE",
+  "image": "default-image.png"
+ },
+ {
+  "id": 35,
+  "name": "ALE 1806",
+  "price": 45,
+  "discount": 0,
+  "category": "MUJER",
+  "description": "DDDD",
+  "image": "default-image.png"
+ },
+ {
+  "id": 36,
+  "name": "sddddd12",
+  "price": 45,
+  "discount": 0,
+  "category": "MUJER",
+  "description": "22",
+  "image": "default-image.png"
+ },
+ {
+  "id": 37,
+  "name": "buzzoff",
+  "price": 45,
+  "discount": 0,
+  "category": "MUJER",
+  "description": "eee",
+  "image": "default-image.png"
+ },
+ {
+  "id": 38,
+  "name": "remera roja hombre",
+  "price": 45,
+  "discount": 0,
+  "category": "HOMBRE",
+  "description": "hombree",
+  "image": "default-image.png"
+ },
+ {
+  "id": 39,
+  "name": "remera rosa hombre",
+  "price": 1455,
+  "discount": 0,
+  "category": "HOMBRE",
+  "description": "assssss",
+  "image": "default-image.png"
+ },
+ {
+  "id": 40,
+  "name": "remera nico",
+  "price": 45,
+  "discount": 0,
+  "category": "HOMBRE",
+  "description": "eeeee",
+  "image": "default-image.png"
+ }
+]
