@@ -1,103 +1,43 @@
 [
  {
-  "id": 34,
-  "name": "pantalonn  MMM",
-  "price": 45,
-  "discount": 0,
-  "category": "MUJER",
-  "description": "EE",
-  "image": "default-image.png"
- },
- {
-  "id": 35,
-  "name": "ALE 1806",
-  "price": 45,
-  "discount": 0,
-  "category": "MUJER",
-  "description": "DDDD",
-  "image": "default-image.png"
- },
- {
-  "id": 36,
-  "name": "sddddd12",
-  "price": 45,
-  "discount": 0,
-  "category": "MUJER",
-  "description": "22",
-  "image": "default-image.png"
- },
- {
-  "id": 37,
-  "name": "buzzoff",
-  "price": 45,
-  "discount": 0,
-  "category": "MUJER",
-  "description": "eee",
-  "image": "default-image.png"
- },
- {
-  "id": 44,
-  "name": "remera rosa",
-  "price": 0,
-  "discount": 0,
-  "category": "MUJER",
-  "description": "sss",
-  "image": "default-image.png",
-  "talle": "M"
- },
- {
-  "id": 47,
-  "name": "remera rosa",
-  "price": 45,
-  "discount": 10,
-  "category": "MUJER",
-  "description": "sssseeeeeeeerrrrrr",
-  "img": "camisa.jpg",
-  "talle": "M",
-  "image": "default-image.png"
- },
- {
-  "id": 49,
-  "name": "remera rosa478",
-  "price": 45,
-  "discount": 10,
-  "category": "MUJER",
-  "description": "wwww",
-  "img": "mujer1.jpg",
-  "talle": "M",
-  "image": "default-image.png"
- },
- {
   "id": 51
  },
  {
   "id": 52,
-  "name": "remera rosa",
+  "name": "POLERA BASICA ",
   "price": 1092,
-  "discount": 23,
-  "category": "MUJER",
-  "description": "prueba 1",
-  "image": "default-image.pngim",
-  "talle": "M"
- },
- {
-  "id": 56,
-  "name": "remera rosa",
-  "price": 12,
   "discount": 0,
   "category": "MUJER",
-  "description": "e",
-  "image": "default-image.png",
+  "description": "Polera básica de mangas largas con bordes interiores redondeados. El vivo de tul aterciopelado en puños renueva el detalle clásico de la marca con un toque cálido, femenino y sutil. TEJIDO: Jersey elastizado elaborado con algodón egipcio de título fino. Importado de Brasil.",
+  "image": "mujer10.jpg"
+ },
+ {
+  "id": 53,
+  "name": "Babucha Gris Clon",
+  "price": 1092,
+  "discount": 0,
+  "category": "MUJER",
+  "description": "Babucha de algodón deportiva ",
+  "image": "mujer12.jpg",
   "talle": "S"
  },
  {
-  "id": 57,
-  "name": "remera roja hombre",
-  "price": 45,
-  "discount": 15,
+  "id": 54,
+  "name": "remera rosa",
+  "price": 499,
+  "discount": 0,
   "category": "MUJER",
-  "description": "weee",
-  "image": "mujer6.jpg",
-  "talle": "S"
+  "image": "mujer2.jpg",
+  "description": "Remera de algodón "
+ },
+ {
+  "id": 55,
+  "name": "Camisa",
+  "price": 1092,
+  "discount": 0,
+  "category": "HOMBRE",
+  "description": "camisa algodon",
+  "image": "musculosa.png",
+  "talle": "M"
  }
 ]

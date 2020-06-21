@@ -2,7 +2,7 @@
 <html lang="es">
 	<%- include('partials/head') %>  
 	<body>
-
+		<%- include partials/header.ejs%>
 	<div class="product-box">
 		<div class="row">
 			<div class="col-12">
@@ -40,8 +40,13 @@
 							>
 								MUJER 
 							</option>
-						</select>
-					</div>
+							<div class="col-12">
+								<form action="">
+								  <label for="image">Seleccione una imagen:</label>
+								  <input type="file" id="image" name="image" accept="image/*">
+								</form>
+							  </div>
+		
 					<div class="col-12">
 						<label for="description" class="form-label">Descipción:</label>
 						<textarea name="description" id="description" class="form-input"><%= productToEdit.description %></textarea>

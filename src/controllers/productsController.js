@@ -80,7 +80,7 @@ const controller = {
 		productToEdit = {
 			id: productToEdit.id,
 			...req.body,
-			image: productToEdit.image,
+			
 		};
 		
 		let newProducts = products.map(product => {
