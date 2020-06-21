@@ -35,6 +35,14 @@ const controller = {
 		});
 		
 	},
+	register: (req, res) => {
+		res.render('register', {
+			products,
+			thousandGenerator: toThousand	
+		});
+		
+	},
+	// Det
 	// Detail - Detail from one product
 	detail: (req, res) => {
 		let pdtoID = req.params.productId;

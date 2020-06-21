@@ -37,7 +37,11 @@ const controller = {
 			thousandGenerator: toThousand
 		});
 	},
-
+	register: (req, res) => {
+		res.render('register', {
+			thousandGenerator: toThousand
+		});
+	},
 	search: (req, res) => {
 		let word = req.query.keywords;
 		let productsByWord = products.filter(pdto => pdto.name.toLowerCase().includes(word) ? pdto : null);	

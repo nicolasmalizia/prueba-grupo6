@@ -11,8 +11,9 @@ router.get('/', productsController.root); /* GET - All products */
 router.get('/detail/:productId/', productsController.detail); /* GET - Product detail */
 
 /*** CREATE ONE PRODUCT ***/ 
-router.get('/catmujer/', productsController.catmujer); /* GET - Form to create */
-router.get('/cathombre/', productsController.cathombre); /* GET - Form to create */
+router.get('/catmujer/', productsController.catmujer); 
+router.get('/cathombre/', productsController.cathombre); 
+router.get('/register/', productsController.cathombre); 
 router.get('/create/', productsController.create); /* GET - Form to create */
 router.post('/create/', productsController.store); /* POST - Store in DB */
 

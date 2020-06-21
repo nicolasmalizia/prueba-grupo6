@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <%- include partials/head.ejs%>
+<body>
+    
+  <%- include partials/header.ejs%>
+
+  <br> 
+<div class="conteiner row justify-content-center sc">
+    <div class="conteiner">
+        <form method="POST" action='/register' class="form-conteiner">
+            <div class="form-group ">
+              <label for="nombre">Nombre</label>
+              <input type="text" class="form-control" id="nombre" placeholder="Nombre">
+              <small class="form-text text-muted">ingrese un Nombre</small>
+            </div>
+
+            <div class="form-group">
+                <label for= "apellido">Apellido</label>
+                <input type="text" class="form-control" id="apellido" placeholder="Apellido">
+                <small class="form-text text-muted">ingrese un Apellido</small>
+              </div>
+
+            <div class="form-group "> 
+                <label for="sexo" class="control-label">Sexo</label>
+                <select class="form-control" id="sexo">
+                    <option value="MA">Masculino</option>
+                    <option value="FE">Femenino </option>
+                    <option value="OT">Otro</option>
+                </select>                    
+            </div>
+
+            <div class="form-group ">
+                <label for="email">Email</label>
+                <input type="email" class="form-control" id="email" placeholder="email@dh.com">
+                <small class="form-text text-muted">ingrese un email</small>
+              </div>
+
+              <div class="form-group ">
+                <label for="exampleInputEmail1">Numero Celular</label>
+                <input type="number" class="form-control" id="celular" placeholder="+54 011">
+                <small class="form-text text-muted">ingrese un Numero Celular</small>
+              </div>
+
+            <div class="form-group ">
+                <label for="exampleInputPassword1">Ingrese Clave</label>
+                <input type="password" class="form-control" id="password1" placeholder="*****">
+              </div>
+
+              <div class="form-group ">
+                <label for="exampleInputPassword1"> Confirme Clave</label>
+                <input type="password" class="form-control" id="password2" placeholder="*****">
+              </div>
+
+            <div class="form-check ">
+              <input type="checkbox" class="form-check-input" id="conditions">
+              <label class="form-check-label" for="exampleCheck1">confirme condiciones</label>
+            </div>
+            <br>
+            <button type="enviar" class="btn btn-primary">enviar</button>
+          </form>
+    </div>
+</div>
+
+<%- include partials/footer.ejs%>
+<%- include('partials/jquery') %>    
+</body>
+</html>
