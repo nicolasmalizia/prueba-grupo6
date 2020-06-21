@@ -36,30 +36,68 @@
   "image": "default-image.png"
  },
  {
-  "id": 38,
+  "id": 44,
+  "name": "remera rosa",
+  "price": 0,
+  "discount": 0,
+  "category": "MUJER",
+  "description": "sss",
+  "image": "default-image.png",
+  "talle": "M"
+ },
+ {
+  "id": 47,
+  "name": "remera rosa",
+  "price": 45,
+  "discount": 10,
+  "category": "MUJER",
+  "description": "sssseeeeeeeerrrrrr",
+  "img": "camisa.jpg",
+  "talle": "M",
+  "image": "default-image.png"
+ },
+ {
+  "id": 49,
+  "name": "remera rosa478",
+  "price": 45,
+  "discount": 10,
+  "category": "MUJER",
+  "description": "wwww",
+  "img": "mujer1.jpg",
+  "talle": "M",
+  "image": "default-image.png"
+ },
+ {
+  "id": 51
+ },
+ {
+  "id": 52,
+  "name": "remera rosa",
+  "price": 1092,
+  "discount": 23,
+  "category": "MUJER",
+  "description": "prueba 1",
+  "image": "default-image.pngim",
+  "talle": "M"
+ },
+ {
+  "id": 56,
+  "name": "remera rosa",
+  "price": 12,
+  "discount": 0,
+  "category": "MUJER",
+  "description": "e",
+  "image": "default-image.png",
+  "talle": "S"
+ },
+ {
+  "id": 57,
   "name": "remera roja hombre",
   "price": 45,
-  "discount": 0,
-  "category": "HOMBRE",
-  "description": "hombree",
-  "image": "default-image.png"
- },
- {
-  "id": 39,
-  "name": "remera rosa hombre",
-  "price": 1455,
-  "discount": 0,
-  "category": "HOMBRE",
-  "description": "assssss",
-  "image": "default-image.png"
- },
- {
-  "id": 40,
-  "name": "remera nico",
-  "price": 45,
-  "discount": 0,
-  "category": "HOMBRE",
-  "description": "eeeee",
-  "image": "default-image.png"
+  "discount": 15,
+  "category": "MUJER",
+  "description": "weee",
+  "image": "mujer6.jpg",
+  "talle": "S"
  }
 ]

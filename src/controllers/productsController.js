@@ -50,17 +50,13 @@ const controller = {
 	create: (req, res) => {
 		res.render('product-create-form.ejs');
 	},
-	//catdetail: (req, res) => {
-	//	res.render('catdetail.ejs');
-	//},
-	// Create -  Method to store
 	store: (req, res) => {
 		req.body.price = Number(req.body.price);
 		req.body.discount = Number(req.body.discount);
 		let newProduct = {
 			id: products[products.length - 1].id + 1,
 			...req.body,
-			image: 'default-image.png'
+			
 		};
 		let finalProducts = [...products, newProduct];
 		fs.writeFileSync(productsFilePath, JSON.stringify(finalProducts, null, ' '));
